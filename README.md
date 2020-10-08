@@ -24,5 +24,3 @@ If you send the following JSON using [MQTT Explorer](http://mqtt-explorer.com/) 
   "@@iotes_storeId": {}
 }
 ```
-
-Messages sent to the MQTT server by the MQTT Strategy do include the `"@@iotes_storeId"` which is causing them to be ignored.
