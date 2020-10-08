@@ -4,7 +4,7 @@ App to show iotes/mqtt can't commnicate between client instances.
 * Open two terminal windows. 
 * Change to this directory in both. 
 * Run `npm install` in one of them.
-* Run `npm run-script start-a` in one.
+* When it's finished run `npm run-script start-a` in one.
 * Run `npm run-script start-b` in the other.
 
 Messages sent from one client do not appear in the other client even though they are both subscribed to the same mqtt topic. In fact I only seem to see messages leaving iotes (based on the "direction":"O" in messages), nothing seems to come back from the server.
