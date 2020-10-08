@@ -1,5 +1,5 @@
 # mqtt-iotes-test
-App to show iotes/mqtt can't commnicate between clients instances.
+App to show iotes/mqtt can't commnicate between client instances.
 
 * Open two terminal windows. 
 * Change to this directory in both. 
