@@ -17,7 +17,7 @@ If you use something like [MQTT Explorer](http://mqtt-explorer.com/) to publish 
 }
 ```
 
-If you send the following JSON it fails to register at `deviceSubscribe` but it does arrive at the strategy.
+If you send the following JSON it fails to register at `deviceSubscribe` but it does arrive at the MQTT client in the strategy.
 ```
 {
   "test": "message2",
